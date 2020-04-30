@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+*{
+    font-family: 'Kalam', cursive;
+}
+h2{
+    text-align: center;
+}
+.input1{
+    border-radius: 0.4cm;
+    width: 90%;
+    height: 25px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 0.5cm;
+}
+.parent{
+    height:90%;
+    background-color:rgba(255,255,255,0.8);
+    width: 400px;
+    border: 0px solid #000000;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    display: flex;
+justify-content: center;
+margin-top: 2%;
+}
+body{
+background-image: url('./img1.svg');
+display: flex;
+justify-content: center;
+}
+#text1{
+ font-size: 0.4cm;
+}
+.input2{
+    text-align: left;
+}
+.class1{
+    width: 70%;
+}
+#gender1{
+    border-radius: 0.4cm;
+    width: 40%;
+    height: 25px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 0.9cm;
+}
+#btn1{
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    outline: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 30%;
+    margin-left: 10px;
+}
+@media(max-width:450px)
+{
+    .parent{
+        width: 75%;
+    }
+}
+@media(min-width:600px)
+{
+    .parent{
+        width: 60%;
+    }
+}
+@media(min-width:600px) and (max-width:450px)
+{
+    .parent{
+        width: 70%;
+    }
+}
+
+
